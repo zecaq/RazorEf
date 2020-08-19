@@ -1,0 +1,25 @@
+git add <fileName> //add to staging area
+git rm --cached <filename> //remove from staging area
+git reset HEAD <filename> //unstage file
+git commit -m 'brief note'
+git commit --amend //to change your previous commit
+git remote -v (info)
+git push //dodavanje na github
+git pull //povlacenje sa github-a
+
+git push tr v2.0
+git push tr --tags //sve tagove push
+
+git tag //prikazuje tagove
+git tag -a -v1.2 -m 'Version 1.2' //dodavanje taga
+git tag -a v1.3 72c447
+
+
+git log --pretty=oneline
+git log --pretty=format:"%h : %an : %ar : %s"
+git log --author="Zeljko Grubisic" 
+git log --before ="2020-03-25"
+
+git remote rename origin <name> //menjanje imena
+
+
