@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\MiFS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MiFS\\.nuget\\packages"
+    ]
+  }
+}
